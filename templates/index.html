@@ -1,0 +1,158 @@
+<html>
+<body style="background-color:powderblue;">
+<title>
+    Wine Quality Classification system
+</title>
+<style>
+      html {
+        height: 100%;
+      }
+
+      body {
+        height: 100%;
+        font-family: Arial;
+        margin: 0;
+      }
+
+      form {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      form textarea {
+        width: 500px;
+        height: 150px;
+        border-radius: 3px;
+        border-color: red;
+        padding: 2px 10px;
+        box-sizing: border-box;
+        min-width: 300px;
+        margin-top: 29px;
+        font-size: 16px;
+      }
+
+      form button {
+        width: 90px;
+        height: 38px;
+        margin-top: 20px;
+        border-color: coral;
+        background-color: antiquewhite;
+      }
+
+      form button:hover {
+        width: 90px;
+        height: 38px;
+        margin-top: 20px;
+        border-color: coral;
+        background-color: #e2661d;
+        box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+          0 17px 50px 0 rgba(0, 0, 0, 0.19);
+      }
+
+      .container {
+        height: 100%;
+      }
+
+      .fa {
+        padding: 8px;
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        margin: 12px 10px;
+        margin-top: 23px;
+      }
+
+      .fa-twitter {
+        background: #55acee;
+        color: white;
+      }
+
+      .fa-google {
+        background: #dd4b39;
+        color: white;
+      }
+
+      .fa-linkedin {
+        background: #007bb5;
+        color: white;
+      }
+
+      .fa-github {
+        background: black;
+        color: white;
+      }
+
+      .header {
+        height: 124px;
+        margin-top: 0;
+        padding: 36px;
+        text-align: center;
+        background: #197278;
+        color: white;
+        font-size: 25px;
+      }
+      /* Page Content */
+      .content {
+        padding: 20px;
+        background: #edddd4;
+        height: calc(100% - 402px);
+      }
+
+      .footer {
+        background-color: #283d3b;
+        height: 100px;
+        position: fixed;
+        width: 100%;
+        bottom: 0px;
+        text-align: center;
+      }
+
+      .predict {
+        margin-top: 42px;
+        font-size: 25px;
+        text-align: center;
+      }
+
+      .copyright {
+        margin-top: 10px;
+        bottom: 0;
+        color: white;
+        background-color: black;
+        box-sizing: border-box;
+        padding: 31px;
+      }
+    </style>
+
+<form action="http://localhost:5000/predict" method="post">
+    <h1>
+        Wine Quality Classification System
+    </h1>
+    Fixed acidity
+    <input type="text" name="a1"/><br>
+    volatile acidity
+    <input type="text" name="a2"/><br>
+    citric acid
+    <input type="text" name="a3"/><br>
+    residual sugar
+     <input type="text" name="a4"/><br>
+    chlorides
+     <input type="text" name="a5"/><br>
+    free sulfur dioxide
+    <input type="text" name="a6"/><br>
+    total sulfur dioxide
+    <input type="text" name="a7"/><br>
+    density
+    <input type="text" name="a8"/><br>
+    pH
+    <input type="text" name="a9"/><br>
+    sulphates
+    <input type="text" name="a10"/><br>
+    alcohol
+    <input type="text" name="a11"/><br>
+    <input type="submit" value="Predict"/><br>
+</form>
+
+</html>
