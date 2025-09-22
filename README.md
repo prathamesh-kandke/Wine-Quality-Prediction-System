@@ -240,27 +240,4 @@ Modify `GUI_app.py` to customize the desktop application interface.
 - [ ] Add confidence scores for predictions
 - [ ] Create API endpoints for external integration
 
-## 🤝 Contributing
 
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test thoroughly
-5. Submit a pull request
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## 👥 Authors
-
-- **Data Science & Machine Learning Project**
-- **Project 1**: Wine Quality Prediction System
-
-## 📞 Support
-
-For questions or support, please open an issue in the repository or contact the development team.
-
----
-
-**Note**: This project is for educational and research purposes. The wine quality predictions should not be used as the sole basis for commercial wine quality assessment.
